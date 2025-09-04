@@ -1,0 +1,235 @@
+body{
+      margin:0;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+.home{
+      background-image: url(laptop.jpg);
+      background-size: cover;
+      background-color: black;
+      padding: 10px 20px 80px;
+      color: aliceblue;
+}
+.portfolio{
+      margin-right: 100px;
+      font-size: 30px;
+    }
+    .navbar , .portfolio{
+      display: inline;
+    }
+    .navbar{
+      color: aliceblue;
+      margin-left: 50px;
+    }
+    .color{
+      color:aliceblue;
+      text-decoration: none;
+    }
+    .color:hover{
+      color:#d71c57;
+      transition: 0.2s;
+    }
+    .name{
+       margin: 80px 0px;
+      color: aliceblue;
+    }
+    .button{
+        border: none;
+         background-color:#d71c57;
+         padding: 10px;
+         border-radius:20px;
+         color:white;
+          cursor: pointer;
+          text-decoration: none;
+    }
+    .about{
+      background-color:#151515;
+      padding: 50px 80px 100px;
+      color: aliceblue;
+    }
+    .content{
+      width: 100%;
+    }
+    .myimage{
+       width: 350px;
+       border-radius: 5px;
+        margin-right: 50px;
+        float: left;
+    }
+    .para{
+      line-height: 40px;
+    }
+    .lettalk{
+      background-color: #d71c57;
+      color: aliceblue;
+      text-decoration: none;
+      padding: 6px 25px;
+      border-radius: 15px;
+      margin-left: 230px;
+    }
+    .services{
+      background-color:black;
+      padding: 50px 80px 80px 80px;
+      text-align: center;
+      color: aliceblue;
+    }
+    .webmenu{
+      background-color: #151515;
+      display: inline-block;
+      width: 250px;
+      padding: 30px;
+      border-radius: 10px;
+      margin-right: 10px ;
+      margin-left: 10px;
+      text-align: center;
+      outline: #2f2f2f solid 1px;
+    }
+    .webmenu:hover{
+      transform: translateY(-10px);
+      transition: 0.5s;
+    }
+    .menu{
+      background-color: #d71c57;
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto 20px;
+    }
+    .parain{
+      line-height: 30px;
+    }
+    .beautiful{
+      background-color: #151515;
+      color: aliceblue;
+      padding: 50px 180px ;
+      text-align: center;
+    }
+    .skill {
+      margin-bottom: 20px;
+    }
+    .skill-name {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .skill-bar {
+      background: #ddd;
+      height: 20px;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .skill-level {
+      height: 100%;
+      text-align: right;
+      padding-right: 5px;
+      color: #fff;
+      font-size: 12px;
+      line-height: 13px;
+    }
+    .html { width: 90%; background: #d71c57; }
+    .css { width: 80%; background: #d71c57; }
+    .javascript { width: 70%; background: #d71c57; }
+    .c{ width: 65%; background: #d71c57; }
+    .python { width: 80%; background: #d71c57; }
+    .java{ width: 75%; background: #d71c57; }
+    .contact{
+      background-color: black;
+      color:aliceblue;
+      text-align: center;
+      padding: 50px 400px;
+    }
+    .socialmedia{
+      display: inline-block;
+      margin: 20px 10px;
+      cursor: pointer;
+    }
+    .linked{
+      color: #d71c57;
+      font-size: 40px;
+      margin-left: 10px;
+      margin-right: 10px;
+      border-radius: 40px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: white;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      outline: none;
+      font-size: 14px;
+    }
+    textarea {
+      resize: none;
+      height: 100px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #d71c57;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .success, .error {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 14px;
+    }
+    .success { color: green; }
+    .error { color: red; }
+    .sizing{
+      text-align: center;
+      margin: 30px 0px;
+    }
+    #sent{
+      background-color: #d71c57;
+      color: aliceblue;
+      text-decoration: none;
+      padding: 8px 25px;
+      border-radius: 15px;}
+    @media screen and (min-width: 150px) and (max-width: 480px){
+      .navbar{
+        margin-left: 2px;
+        display: block;
+        text-decoration: none;
+      }
+      .color:hover{
+        color: #151515;
+        background-color: #d71c57;
+        padding: 5px;
+        border-radius: 10px;
+      }
+      .contact, .contact-container, .socialmedia{
+        display: block;
+        float: left;
+      }
+      .services{
+        padding: 50px;
+      }
+      .webmenu{
+        display: block;
+        width: 80%;
+        margin: 20px auto;
+      }
+      .contact{
+        padding: 20px;
+        padding-left: 60px;
+      }
+      .about{
+        padding: 30px;
+      }
+      .beautiful{
+      background-color: #151515;
+      color: aliceblue;
+      padding: 50px;
+      text-align: center;
+    }
+}

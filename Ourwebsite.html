@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divya's Portfolio</title>
+  <link rel="stylesheet" href="Ourwebsite.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+   <div class="home" id="home">
+      <h2 class="portfolio">Portfo<span style="color: #d71c57;">lio</span></h2>
+      <ul class="navbar">
+        <li class="navbar"><a class="color" href="#home">Home</a></li>
+        <li class="navbar"><a class="color" href="#aboutme">About Me</a></li>
+        <li class="navbar"><a class="color" href="#service">Projects</a></li>
+        <li class="navbar"><a class="color" href="#skills">Skills</a></li>
+        <li class="navbar"><a class="color" href="#contact">Contact Me</a></li>
+      </ul>
+      <div class="name">
+        <p>Hello, My Name is</p>
+        <h1 style="font-size: 40px;">Divya<span style="color: #d71c57;"> Thangaraj</span></h1>
+        <h3>I'am a Front-End Developer.</h3><br>
+        <a class="button" href="mailto:thangarajdivya23@gmail.com?subject=Portfolio%20Inquiry&body=Hello,%20I%20saw%20your%20portfolio...">Let's Talk</a>
+      </div>
+   </div>
+   <div class="about" id="aboutme">
+    <div class="content">
+       <!--<img class="myimage" src="divya3.jpg" alt="It is my image">-->
+        <h1 style="font-size: 40px;">About Me</h1>
+        <h4>Developer <span style="color: #d71c57;">& Designer</span></h4>
+        <p class="para">
+           I create websites that look nice and work well on all devices.
+           I use tools like HTML, CSS, JavaScript, and design software to build websites.
+           I enjoy making websites easy to use and fast to load.
+           I can design the look of a website and also build how it works.
+           I like learning new things and keeping my skills up to date.
+           I work with clients to understand their needs and bring their ideas to life.
+           My goal is to build clean, modern, and user-friendly websites.
+           I am passionate about my work and always give my best.
+           Let's work together to build something great!
+</p>
+        <a style="margin-left: 0%;" class="lettalk" href="mailto:thangarajdivya23@gmail.com?subject=Portfolio%20Inquiry&body=Hello,%20I%20saw%20your%20portfolio...">Let's Talk</a>
+      </div>
+   </div>
+   <div class="services" id="service">
+      <h1 style="font-size: 40px;">My Project</h1>
+      <div class="webmenu">
+        <div class="menu">💻</div>
+        <h3>To-Do List</h3>
+        <p class="parain">The To-Do List app helps users organize daily tasks with add, edit, and delete features.
+It offers a simple, responsive interface for easy task management.
+This project highlights my skills in JavaScript, HTML, and CSS for interactive web applications.</p>
+      </div>
+      <div class="webmenu">
+        <div class="menu">👤</div>
+        <h3>Management System</h3>
+        <p class="parain">The Management System is designed to organize and streamline data efficiently.
+It allows easy adding, updating, and tracking of records for smooth operations.
+This project reflects my skills in creating structured, user-friendly applications.</p></div>
+      <div class="webmenu">
+        <div class="menu">🔔</div>
+        <h3>Personal Portfolio</h3>
+        <p class="parain">My Personal Portfolio showcases my skills, projects, and creative journey in a professional way.
+It features a responsive design with smooth navigation for a user-friendly experience.
+This project highlights my expertise in web development.</p></div>
+   </div>
+   <div class="beautiful" id="skills">
+      <h1>My Skills</h1>
+    <div class="skill">
+    <div class="skill-name">HTML</div>
+    <div class="skill-bar"><div class="skill-level html">90%</div></div>
+  </div>
+  <div class="skill">
+    <div class="skill-name">CSS</div>
+    <div class="skill-bar"><div class="skill-level css">80%</div></div>
+  </div>
+  <div class="skill">
+    <div class="skill-name">Javascript</div>
+    <div class="skill-bar"><div class="skill-level javascript">70%</div></div>
+  </div>
+  <div class="skill">
+    <div class="skill-name">C++</div>
+    <div class="skill-bar"><div class="skill-level c">65%</div></div>
+  </div>
+  
+  <div class="skill">
+    <div class="skill-name">Python</div>
+    <div class="skill-bar"><div class="skill-level python">80%</div></div>
+  </div>
+  
+  <div class="skill">
+    <div class="skill-name">Java</div>
+    <div class="skill-bar"><div class="skill-level java">75%</div></div>
+  </div>
+  </div>
+   <div class="contact" id="contact">
+     <h1>Contact Me</h1>
+     <div class="socialmedia"><i class="fa-brands fa-linkedin linked"></i></div>
+     <div class="socialmedia"><i class="fa-brands fa-facebook linked"></i></div>
+     <div class="socialmedia"><i class="fa-brands fa-github linked"></i></div>
+      <div class="contact-container">
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="name" class="sizing">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <label for="email" class="sizing">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="message" class="sizing">Message</label>
+        <textarea id="message" name="message" placeholder="Type your message" required></textarea>
+      </div>
+      <button type="submit" class="sizing" id="sent">Send Message</button>
+      <p id="formStatus"></p>
+    </form>
+  </div>
+   </div>
+   <script src="Ourwebsite.js"></script>
+</body>
+</html>
